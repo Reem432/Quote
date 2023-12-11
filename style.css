@@ -1,0 +1,39 @@
+.content{
+    margin: 5% auto;
+    text-align: center;
+    
+}
+.content h1{
+    font-size: 80px;
+    font-family: 'Lora', serif;
+}
+.content .vi{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgba(40, 28, 28, 0.813);
+}
+#day-quote{
+    margin: 30px;
+    font-size:25px;
+}
+#day-quote-author{
+    font-size: 25px;
+}
+
+.content button{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Outfit', sans-serif;
+    padding: 20px 30px;
+    background-color: white;
+    color:black;
+    transition: all 0.4s;
+    border: 1px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.content button:hover{
+    background-color: cornflowerblue;
+    color: white;
+    transform: translateY(-1px);
+}
